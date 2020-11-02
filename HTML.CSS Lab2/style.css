@@ -29,7 +29,6 @@ a {
     color: #69696a;
     text-decoration: none;
     font-size: 2em;
-    /* padding: 2%; */
 }
 
 button {
@@ -103,7 +102,7 @@ main {
     main {
         display: flex;
         flex-direction: row;
-        height: 70%;
+        height: 50%;
         padding-right: 50px;
     }
     
