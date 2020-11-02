@@ -1,0 +1,154 @@
+body { 
+    font-family: 'Open Sans', sans-serif;
+    padding: 3%;
+    background-color: #f9fafc;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+a {
+    color: #69696a;
+    text-decoration: none;
+    font-size: 2em;
+    /* padding: 2%; */
+}
+
+button {
+    font-size: 2em;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 60px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+blockquote {
+    color: #69696a;
+    display: block;
+    border-left: 3px solid #69696a;
+    padding-left: 2%;
+    font-size: 2em;
+  }
+
+main {
+    padding-bottom: 5%;
+}
+
+
+@media screen and (min-width: 768px) {
+    body { 
+        font-family: 'Open Sans', sans-serif;
+        background-color: #f9fafc;
+        height: 100vh;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    #links {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    h1{
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1em;
+    }
+    
+    a {
+        color: #69696a;
+        text-decoration: none;
+        font-size: 1em;
+        padding: 15px;
+    }
+    
+    button {
+        font-size: 1em;
+        background-color: #000000;
+        color: #ffffff;
+        border-radius: 60px;
+        padding: 15px;
+        width: auto;
+        margin: 0px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        height: 70%;
+        padding-right: 50px;
+    }
+    
+    blockquote {
+        width: 50%;
+        color: #69696a;
+        display: block;
+        border-left: 3px solid #69696a;
+        padding-left: 2%;
+        font-size: 1em;
+    }
+
+    #lg-circle {
+        background-color: rgba(247, 136, 167, 0.6);
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        position: relative;
+        right: 60px;
+        top: 30px;
+    }
+
+    #md-circle {
+        background-color: rgba(247, 193, 162, 0.7);
+        height: 230px;
+        width: 230px;
+        border-radius: 50%;
+        position: relative;
+        right: -140px;
+        top: -130px;
+
+    }
+
+    #sm-circle{
+        background-color: rgba(207, 130, 213, 0.6);
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+        position: relative;
+        right: -180px;
+        top: -450px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+}
